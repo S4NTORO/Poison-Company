@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Poison Company</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_cad_pedido">Cadastrar</string>
+    <string-array name="produto">
+        <item>Camiseta 1</item>
+        <item>Camiseta 2</item>
+        <item>Camiseta 3</item>
+        <item>Camiseta 4</item>
+    </string-array>
+
+    <string-array name="cor">
+        <item>Preto</item>
+        <item>Branco</item>
+        <item>Cinza</item>
+        <item>Vinho</item>
+    </string-array>
+
+    <string-array name="tamanho">
+        <item>P</item>
+        <item>M</item>
+        <item>G</item>
+        <item>GG</item>
+    </string-array>
+</resources>
