@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/navigation_cad_pedido"
-        android:name="br.edu.ifsc.xap.mobile.poisoncompany.CadPedido"
+        android:name="br.edu.ifsc.xap.mobile.poisoncompany.ui.pedido.cad_pedido"
         android:label="@string/title_cad_pedido"
         tools:layout="@layout/fragment_cad_pedido" />
 

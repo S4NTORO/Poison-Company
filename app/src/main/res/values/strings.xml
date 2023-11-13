@@ -7,17 +7,19 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_cad_pedido">Cadastrar</string>
     <string-array name="produto">
-        <item>Camiseta 1</item>
-        <item>Camiseta 2</item>
-        <item>Camiseta 3</item>
-        <item>Camiseta 4</item>
+        <item>Camiseta</item>
+        <item>Camisa</item>
+        <item>Casaco</item>
+        <item>Moleton</item>
     </string-array>
 
     <string-array name="cor">
-        <item>Preto</item>
         <item>Branco</item>
+        <item>Preto</item>
         <item>Cinza</item>
-        <item>Vinho</item>
+        <item>Azul</item>
+        <item>Amarelo</item>
+        <item>Vermelho</item>
     </string-array>
 
     <string-array name="tamanho">

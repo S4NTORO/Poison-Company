@@ -1,4 +1,6 @@
 package br.edu.ifsc.xap.mobile.poisoncompany.model;
+import android.util.Log;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 public class Pedido {
@@ -24,10 +26,10 @@ public class Pedido {
         try {
             Integer numero = (int) jp.get("id");
             this.setId(numero);
-            this.setSp_produto((Integer) jp.get("produto"));
-            this.setSp_cor((Integer) jp.get("cor"));
-            this.setSp_tamanho((Integer) jp.get("tamanho"));
-            this.setNumero((Integer) jp.get("numero"));
+            this.setSp_produto((Integer) jp.get("Produto_idProduto"));
+            this.setSp_cor((Integer) jp.get("Cor_idCor"));
+            this.setSp_tamanho((Integer) jp.get("Tamanho_idTamanho"));
+            this.setNumero((Integer) jp.get("qtd"));
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -36,10 +38,12 @@ public class Pedido {
         JSONObject json = new JSONObject();
         try {
             json.put("id", this.id);
-            json.put("produto", this.sp_produto);
-            json.put("cor", this.sp_cor);
-            json.put("tamanho", this.sp_tamanho);
-            json.put("numero", this.numero);
+            json.put("Produto_idProduto", this.sp_produto + 1);
+            json.put("Cor_idCor", this.sp_cor + 1);
+            json.put("Tamanho_idTamanho", this.sp_tamanho + 1);
+            json.put("Carrinho_idCarrinho", 1);
+            json.put("qtd", this.numero);
+            Log.d("Json:", json.toString());
         } catch (JSONException e) {
             e.printStackTrace();
         }
